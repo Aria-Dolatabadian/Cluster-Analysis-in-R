@@ -3,7 +3,7 @@ library(gplots)
 
 #Generates a random matrix
 
-data <- matrix(rnorm(500), 100, 5, dimnames=list(paste("g", 1:100, sep=""), paste("t", 1:5, sep="")))
+data <- matrix(rnorm(50), 10, 5, dimnames=list(paste("g", 1:10, sep=""), paste("t", 1:5, sep="")))
 
 #export the matrix as csv
 
