@@ -1,5 +1,10 @@
 
 library(gplots)
+library(cluster)
+library(ape)
+library(pheatmap)
+library(RColorBrewer)
+library(scatterplot3d)
 
 #Generates a random matrix
 
